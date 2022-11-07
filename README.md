@@ -1,4 +1,4 @@
-# Advanced-Programming-Project-
+# Advanced-Programming-Project
 Final version of Advanced Programming project in Java
 # Description
 ## Phase 1
