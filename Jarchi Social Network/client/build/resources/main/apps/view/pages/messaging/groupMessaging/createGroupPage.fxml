@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apps.view.pages.messaging.groupMessaging.CreateGroupPage">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../../../../Images/images.jfif" />
+         </image>
+      </ImageView>
+      <Text fill="#0c6f08" layoutX="115.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please first write group name and submit it and then add users you want to it" textAlignment="CENTER" wrappingWidth="570.9375">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="username" layoutX="268.0" layoutY="266.0" prefHeight="33.0" prefWidth="265.0" />
+      <Text layoutX="127.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName :" wrappingWidth="140.67089939117432">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="580.0" layoutY="480.0" mnemonicParsing="false" onAction="#back" prefHeight="58.0" prefWidth="149.0" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="submit" layoutX="344.0" layoutY="344.0" mnemonicParsing="false" onAction="#submit" prefHeight="48.0" prefWidth="114.0" text="Submit" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="60.0" layoutY="480.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="149.0" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainMenu" layoutX="326.0" layoutY="480.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="58.0" prefWidth="149.0" text="MainMenu" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="userNameLabel" layoutX="269.0" layoutY="299.0" prefHeight="27.0" prefWidth="265.0" textFill="#cd0a0a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="groupName" layoutX="268.0" layoutY="175.0" prefHeight="33.0" prefWidth="265.0" />
+      <Text layoutX="104.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group name :" wrappingWidth="156.67089939117432">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Label fx:id="groupNameLabel" layoutX="268.0" layoutY="148.0" prefHeight="27.0" prefWidth="265.0" textFill="#cd0a0a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" layoutX="534.0" layoutY="265.0" mnemonicParsing="false" onAction="#add" prefHeight="36.0" prefWidth="90.0" text="add" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

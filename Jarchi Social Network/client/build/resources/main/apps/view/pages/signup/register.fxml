@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apps.view.pages.signup.Register">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../../../Images/images.jfif" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="155.0" layoutY="125.0" prefHeight="15.0" prefWidth="151.0" />
+      <Text layoutX="50.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*User Name :" wrappingWidth="89.6708984375" />
+      <TextField fx:id="lastName" layoutX="155.0" layoutY="363.0" prefHeight="15.0" prefWidth="151.0" />
+      <TextField fx:id="firstName" layoutX="155.0" layoutY="284.0" prefHeight="15.0" prefWidth="151.0" />
+      <Text layoutX="50.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*First Name :" wrappingWidth="89.6708984375" />
+      <Text layoutX="50.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Last Name :" wrappingWidth="89.6708984375" />
+      <TextField fx:id="password" layoutX="155.0" layoutY="206.0" prefHeight="15.0" prefWidth="151.0" />
+      <Text layoutX="60.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Password :" wrappingWidth="89.6708984375" />
+      <TextField fx:id="emailAddress" layoutX="155.0" layoutY="444.0" prefHeight="15.0" prefWidth="151.0" />
+      <Text layoutX="28.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Email Address :" wrappingWidth="111.6708984375" />
+      <TextField fx:id="phoneNumber" layoutX="505.0" layoutY="245.0" prefHeight="31.0" prefWidth="166.0" />
+      <TextField fx:id="birthYear" layoutX="507.0" layoutY="168.0" prefHeight="31.0" prefWidth="45.0" />
+      <Text fill="#0c6f08" layoutX="9.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Fill the Nessecary Fields specified with '*'  and then press register Button" wrappingWidth="782.9375">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="417.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthdate :" wrappingWidth="89.6708984375" />
+      <TextField fx:id="birthMonth" layoutX="568.0" layoutY="167.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="birthDay" layoutX="636.0" layoutY="167.0" prefHeight="31.0" prefWidth="45.0" />
+      <Text layoutX="557.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" />
+      <Text layoutX="619.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/" />
+      <Text layoutX="382.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PhoneNumber :" wrappingWidth="111.67089939117432" />
+      <Button fx:id="register" layoutX="557.0" layoutY="486.0" mnemonicParsing="false" onAction="#register" prefHeight="47.0" prefWidth="112.0" text="Register" />
+      <Label fx:id="userNameLabel" layoutX="155.0" layoutY="156.0" prefHeight="21.0" prefWidth="263.0" text="The field is empty" textFill="#cd0a0a" />
+      <Label fx:id="passwordLabel" layoutX="155.0" layoutY="237.0" prefHeight="21.0" prefWidth="189.0" text="The field is empty" textFill="#cd0a0a" />
+      <Label fx:id="firstNameLabel" layoutX="155.0" layoutY="316.0" prefHeight="21.0" prefWidth="189.0" text="The field is empty" textFill="#cd0a0a" />
+      <Label fx:id="lastNameLabel" layoutX="155.0" layoutY="394.0" prefHeight="21.0" prefWidth="189.0" text="The field is empty" textFill="#cd0a0a" />
+      <Label fx:id="emailAddressLabel" layoutX="155.0" layoutY="475.0" prefHeight="21.0" prefWidth="263.0" text="The field is empty" textFill="#cd0a0a" />
+      <Label fx:id="phoneNumberLabel" layoutX="505.0" layoutY="279.0" prefHeight="21.0" prefWidth="189.0" textFill="#cd0a0a" />
+      <Label fx:id="birthdateLabel" layoutX="507.0" layoutY="200.0" prefHeight="21.0" prefWidth="189.0" textFill="#cd0a0a" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apps.view.pages.generalPages.ProfilePage">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../../../Images/images.jfif" />
+         </image>
+      </ImageView>
+      <Text layoutX="145.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name :" wrappingWidth="119.67093551158905">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#0c6f08" layoutX="357.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile " wrappingWidth="86.9375">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="71.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address :" wrappingWidth="142.67095339298248">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number :" wrappingWidth="149.00001287460327">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="580.0" layoutY="480.0" mnemonicParsing="false" onAction="#back" prefHeight="58.0" prefWidth="149.0" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="61.0" layoutY="480.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="149.0" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainMenu" layoutX="335.0" layoutY="480.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="58.0" prefWidth="149.0" text="MainMenu" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="profileImage" fitHeight="128.0" fitWidth="149.0" layoutX="320.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="146.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BirthDate :" wrappingWidth="149.00001287460327">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="name" layoutX="210.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.67091631889343">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="username" layoutX="251.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.6709222793579">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="emailAddress" layoutX="288.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.6709222793579">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="birthdate" layoutX="247.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="306.6709222793579">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="phoneNumber" layoutX="288.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="145.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LastSeen :" wrappingWidth="100.00001287460327">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="lastSeen" layoutX="245.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="followingState" layoutX="205.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="408.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="followButton" layoutX="38.0" layoutY="184.0" mnemonicParsing="false" onAction="#followButton" prefHeight="43.0" prefWidth="143.0" text="Follow" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="block" layoutX="608.0" layoutY="184.0" mnemonicParsing="false" onAction="#block" prefHeight="43.0" prefWidth="143.0" text="block" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="mute" layoutX="223.0" layoutY="184.0" mnemonicParsing="false" onAction="#mute" prefHeight="43.0" prefWidth="143.0" text="mute" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="sendMessage" layoutX="401.0" layoutY="184.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="43.0" prefWidth="167.0" text="send message" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Text layoutX="38.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State :" wrappingWidth="71.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="state" layoutX="110.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="110.67092657089233">
+         <font>
+            <Font name="Bodoni MT" size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

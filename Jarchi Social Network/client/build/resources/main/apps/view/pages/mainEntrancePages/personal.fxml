@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apps.view.pages.mainEntrancePages.Personal">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../../../Images/images.jfif" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="580.0" layoutY="480.0" mnemonicParsing="false" onAction="#back" prefHeight="58.0" prefWidth="149.0" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="60.0" layoutY="480.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="149.0" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="createNewTweet" layoutX="114.0" layoutY="75.0" mnemonicParsing="false" onAction="#createNewTweet" prefHeight="58.0" prefWidth="205.0" text="Create New Tweet" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Text fill="#0c6f08" layoutX="92.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is your Personal page select each one you want" wrappingWidth="615.9375">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="myTweets" layoutX="478.0" layoutY="75.0" mnemonicParsing="false" onAction="#myTweets" prefHeight="58.0" prefWidth="205.0" text="My Tweets" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="editInfo" layoutX="114.0" layoutY="170.0" mnemonicParsing="false" onAction="#editInfo" prefHeight="58.0" prefWidth="205.0" text="Edit Info" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="followers" layoutX="478.0" layoutY="170.0" mnemonicParsing="false" onAction="#followers" prefHeight="58.0" prefWidth="205.0" text="Followers" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="followings" layoutX="114.0" layoutY="271.0" mnemonicParsing="false" onAction="#followings" prefHeight="58.0" prefWidth="205.0" text="Followings" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="blacklist" layoutX="478.0" layoutY="271.0" mnemonicParsing="false" onAction="#blacklist" prefHeight="58.0" prefWidth="205.0" text="BlackList" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="myInfo" layoutX="114.0" layoutY="370.0" mnemonicParsing="false" onAction="#myInfo" prefHeight="58.0" prefWidth="205.0" text="MyInfo" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="notifications" layoutX="478.0" layoutY="370.0" mnemonicParsing="false" onAction="#notifications" prefHeight="58.0" prefWidth="205.0" text="Notifications" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apps.view.pages.timeline.TweetPage">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../../../../Images/images.jfif" />
+         </image>
+      </ImageView>
+      <Text fill="#0c6f08" layoutX="238.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is your TimeLine page " wrappingWidth="324.9375">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="580.0" layoutY="480.0" mnemonicParsing="false" onAction="#back" prefHeight="58.0" prefWidth="149.0" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="60.0" layoutY="480.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="149.0" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="22.0" />
+         </font>
+      </Button>
+      <ScrollPane layoutX="134.0" layoutY="63.0" prefHeight="354.0" prefWidth="516.0">
+         <content>
+            <AnchorPane prefHeight="354.0" prefWidth="517.0">
+               <children>
+                  <Text fx:id="tweetText" layoutX="19.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TweetText" wrappingWidth="471.67236328125">
+                     <font>
+                        <Font name="Agency FB Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="159.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="authorText" layoutX="158.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="author" textAlignment="CENTER" wrappingWidth="202.7469940185547">
+                     <font>
+                        <Font name="Elephant" size="21.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button fx:id="like" layoutX="134.0" layoutY="417.0" mnemonicParsing="false" onAction="#like" prefHeight="31.0" prefWidth="105.0" text="like" />
+      <Button fx:id="save" layoutX="510.0" layoutY="417.0" mnemonicParsing="false" onAction="#save" prefHeight="31.0" prefWidth="65.0" text="save" />
+      <Button fx:id="resend" layoutX="575.0" layoutY="417.0" mnemonicParsing="false" onAction="#resend" prefHeight="31.0" prefWidth="75.0" text="resend" />
+      <Button fx:id="forward" layoutX="314.0" layoutY="417.0" mnemonicParsing="false" onAction="#forward" prefHeight="31.0" prefWidth="75.0" text="forward" />
+      <Button fx:id="block" layoutX="650.0" layoutY="63.0" mnemonicParsing="false" onAction="#block" prefHeight="48.0" prefWidth="89.0" text="block">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="showProfile" layoutX="381.0" layoutY="448.0" mnemonicParsing="false" onAction="#showProfile" prefHeight="31.0" prefWidth="134.0" text="show profile" />
+      <Button fx:id="writeComment" layoutX="386.0" layoutY="417.0" mnemonicParsing="false" onAction="#writeComment" prefHeight="31.0" prefWidth="124.0" text="write comment" />
+      <Button fx:id="showComments" layoutX="247.0" layoutY="448.0" mnemonicParsing="false" onAction="#showComments" prefHeight="31.0" prefWidth="134.0" text="show comments" />
+      <Button fx:id="dislike" layoutX="238.0" layoutY="417.0" mnemonicParsing="false" onAction="#dislike" prefHeight="31.0" prefWidth="75.0" text="dislike" />
+      <Button fx:id="mute" layoutX="46.0" layoutY="63.0" mnemonicParsing="false" onAction="#mute" prefHeight="48.0" prefWidth="89.0" text="mute">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="report" layoutX="650.0" layoutY="347.0" mnemonicParsing="false" onAction="#report" prefHeight="48.0" prefWidth="105.0" text="report">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
