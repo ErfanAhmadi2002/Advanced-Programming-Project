@@ -2,7 +2,7 @@
 Final version of Advanced Programming project in Java
 # Description
 ## Phase 1
-In this phase we were supposed to write code for a social network designed by AP teaching assistant team and the interface was only terminal.(The object oriented programming rules needed to be observed)
+In this phase we were supposed to write code for a social network designed by AP teaching assistant team and the interface was only terminal.(Object oriented programming rules needed to be observed)
 ## Phase 2
 Next, some simple extra features added to the social network but the main part was observing clean code rules and designing a graphical interface for project.
 ## Phase 3
